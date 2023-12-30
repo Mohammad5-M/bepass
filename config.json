@@ -5,11 +5,11 @@
     40,
     80
   ],
-  "RemoteDNSAddr": "https://yarp.lefolgoc.net/dns-query",
+  "RemoteDNSAddr": "https://1.1.1.1/dns-query",
   "EnableDNSFragmentation": false,
   "DnsCacheTTL": 3000000,
   "DnsRequestTimeout": 10,
-  "BindAddress": "0.0.0.0:8085",
+  "BindAddress": "127.0.0.1:8085",
   "ChunksLengthBeforeSni": [
     2000,
     2000
@@ -26,8 +26,8 @@
     10,
     20
   ],
-  "WorkerAddress": "https://<your_worker>.workers.dev/dns-query",
-  "WorkerIPPortAddress": "104.17.196.93:2096",
+  "WorkerAddress": "https://neMidoonam-wor-Bee.e-mAst1379.Workers.dev/dns-query",
+  "WorkerIPPortAddress": "104.16.68.38:2096",
   "WorkerEnabled": true,
   "WorkerDNSOnly": false,
   "EnableLowLevelSockets": false,
